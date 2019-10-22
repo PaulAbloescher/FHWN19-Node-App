@@ -8,7 +8,7 @@ describe('Array', function() {
 
   describe('#indexOf()', function() {
     it('expected to fail', function() {
-      assert.notEqual([1, 2, 3].indexOf(2), 5);
+      assert.notEqual([1, 2, 3].indexOf(4),1);
     });
   });
 });
